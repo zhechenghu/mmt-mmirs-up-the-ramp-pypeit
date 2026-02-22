@@ -45,7 +45,7 @@ python fit_mmirs_ramps.py data/ -o output
 
 ## Example Data Download
 
-Large raw FITS example files are distributed as GitHub Release assets (not tracked in git), because GitHub blocks files larger than 100 MB in normal repository history.
+Large raw FITS example files are distributed as GitHub Release assets. And Please note that these files are exactly the same as those in [PypeIt development suite](https://github.com/pypeit/PypeIt-development-suite). I put them in this release just for convenience.
 
 Download the latest release assets into `example_data/`:
 
@@ -59,8 +59,6 @@ curl -L -O "$BASE_URL/PAAlignJ134208_longslit.5476.fits"
 curl -L -O "$BASE_URL/flat.5494.fits"
 curl -L -O "$BASE_URL/flat.5495.fits"
 ```
-
-If you need a specific version, replace `releases/latest` with `releases/download/<tag>`.
 
 ### Options
 
